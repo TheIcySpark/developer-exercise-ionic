@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+.fixed-container {
+  position: fixed;
+  top: 56px; /* Adjust this value to be below the header */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10; /* Ensure it stays above other content */
+}
+
+.numbers-display {
+  margin-top: 120px; /* Adjust this value to ensure there's enough space below the fixed container */
+}
+
+.numbers-container {
+  white-space: pre-wrap; /* Allows the text to wrap onto the next line */
+  word-break: break-word; /* Ensures long strings break into multiple lines */
+}

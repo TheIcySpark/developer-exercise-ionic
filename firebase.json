@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/developer-exercise-ionic",
+    "public": "dist/developer-exercise-ionic/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
