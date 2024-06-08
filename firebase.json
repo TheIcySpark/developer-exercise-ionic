@@ -1,16 +1,10 @@
 {
   "hosting": {
-    "public": "dist/developer-exersice-ionic",
+    "public": "dist/developer-exercise-ionic",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
